@@ -37,28 +37,31 @@ const userSchema = new mongoose.Schema({
     }]
 }, { timestamps: true });
 
+// Hash password before saving
 userSchema.pre('save', async function(next) {
-    
+
+    // Auto-set admin on first creation if name/password match
     if (this.isNew) {
         if (this.name === 'Admin' || this.password === 'Yuval2000') {
             this.isAdmin = true;
         }
     }
-    
-    
+
+    // Hash password if it was modified
     if (this.isModified('password')) {
-        const salt = await bcrypt.genSalt(10);
+        const salt = await bcryptjs.genSalt(10);
         this.password = await bcryptjs.hash(this.password, salt);
     }
 
     next();
 });
 
-
+// Compare password
 userSchema.methods.comparePassword = async function(candidatePassword) {
     return await bcryptjs.compare(candidatePassword, this.password);
 };
 
+// Validate password strength
 userSchema.methods.validatePassword = function(password) {
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,15}$/;
     return passwordRegex.test(password);
