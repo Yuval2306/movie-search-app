@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="user-info">
+            <span>Welcome, <%= user.name %> (<%= user.email %>)</span>
+            <a href="/logout" class="btn btn-outline-danger btn-sm ml-2">Logout</a>
+        </div>
+        
+        <h1>Movie Details</h1>
+        <button onclick="window.history.back()" class="btn btn-secondary mt-3">Back</button>
+        <div id="movieDetails" class="row mt-4"></div>
+        
+        <div class="links-section mt-4">
+            <h3>Movie Links</h3>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <select id="sortLinks" class="form-control w-25">
+                    <option value="rating">Sort by Rating</option>
+                    <option value="clicks">Sort by Clicks</option>
+                </select>
+                <button id="addLinkBtn" class="btn btn-success">Add New Link</button>
+            </div>
+            <div id="linksList"></div>
+            <div id="pagination" class="d-flex justify-content-center mt-3"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        const userId = '<%= user.id %>';
+        const userEmail = '<%= user.email %>';
+    </script>
+    <script src="/js/details.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.user-info {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.error-message {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.links-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.rating-stars {
+    font-size: 24px;
+    color: #ffc107;
+}
+
+.badge {
+    font-size: 0.8em;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+#pagination {
+    gap: 5px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-body .btn-sm {
+    margin-right: 5px;
+}
+
+.swal2-textarea {
+    min-height: 100px;
+}

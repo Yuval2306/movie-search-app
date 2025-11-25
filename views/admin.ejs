@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Manage Links</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="user-info">
+            <span>Admin: <%= user.name %></span>
+            <a href="/logout" class="btn btn-outline-danger btn-sm ml-2">Logout</a>
+        </div>
+        
+        <h1>Link Management</h1>
+        <button onclick="window.location.href='/movies/search'" class="btn btn-secondary mb-4">Back to Search</button>
+        
+        <table id="linksTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Movie</th>
+                    <th>Link ID</th>
+                    <th>Link Name</th>
+                    <th>Clicks</th>
+                    <th>Privacy</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="/js/admin.js"></script>
+</body>
+</html>

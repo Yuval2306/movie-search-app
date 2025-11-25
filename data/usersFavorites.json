@@ -1,0 +1,177 @@
+{
+  "yuvalboker588@gmail.com": {
+    "movies": {
+      "tt0086393": {
+        "Title": "Superman III",
+        "Year": "1983",
+        "Rated": "PG",
+        "Released": "17 Jun 1983",
+        "Runtime": "125 min",
+        "Genre": "Action, Adventure, Comedy",
+        "Director": "Richard Lester",
+        "Writer": "Jerry Siegel, Joe Shuster, David Newman",
+        "Actors": "Christopher Reeve, Richard Pryor, Margot Kidder",
+        "Plot": "Entrepreneur Ross Webster teams up with a computer genius in order to realise his own evil intentions. When Superman obstructs his plans, he decides to destroy him.",
+        "Language": "English, Italian, Spanish",
+        "Country": "United Kingdom, United States",
+        "Awards": "3 wins & 7 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjcyN2E4NzQtYmUwZC00NmQ5LWJkMWUtMThjZGIwZGIwYzZmXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "5.0/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "29%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "44/100"
+          }
+        ],
+        "Metascore": "44",
+        "imdbRating": "5.0",
+        "imdbVotes": "76,450",
+        "imdbID": "tt0086393",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$59,950,623",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      "tt0242423": {
+        "Title": "Dude, Where's My Car?",
+        "Year": "2000",
+        "Rated": "PG-13",
+        "Released": "15 Dec 2000",
+        "Runtime": "83 min",
+        "Genre": "Comedy, Mystery, Sci-Fi",
+        "Director": "Danny Leiner",
+        "Writer": "Philip Stark",
+        "Actors": "Ashton Kutcher, Seann William Scott, Jennifer Garner",
+        "Plot": "Two potheads wake up after a night of partying and cannot remember where they parked their car.",
+        "Language": "English, Japanese, French",
+        "Country": "United States",
+        "Awards": "1 win & 6 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNmE3NmUxNjUtYzIzMS00MmEzLWJjNjUtNmQ5OTcxMDJkMGNiXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "5.5/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "16%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "30/100"
+          }
+        ],
+        "Metascore": "30",
+        "imdbRating": "5.5",
+        "imdbVotes": "150,225",
+        "imdbID": "tt0242423",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$46,729,800",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    },
+    "links": {}
+  },
+  "yuvalboker@gmail.com": {
+    "movies": {
+      "tt2975590": {
+        "Title": "Batman v Superman: Dawn of Justice",
+        "Year": "2016",
+        "Rated": "R",
+        "Released": "25 Mar 2016",
+        "Runtime": "151 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Zack Snyder",
+        "Writer": "Bob Kane, Bill Finger, Jerry Siegel",
+        "Actors": "Ben Affleck, Henry Cavill, Amy Adams",
+        "Plot": "Batman is manipulated by Lex Luthor to fear Superman. Superman´s existence is meanwhile dividing the world and he is framed for murder during an international crisis. The heroes clash and force the neutral Wonder Woman to reemerge.",
+        "Language": "English",
+        "Country": "United States, Morocco",
+        "Awards": "14 wins & 33 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTJkYjdmYjYtOGMyNC00ZGU1LThkY2ItYTc1OTVlMmE2YWY1XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.5/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "29%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "44/100"
+          }
+        ],
+        "Metascore": "44",
+        "imdbRating": "6.5",
+        "imdbVotes": "765,552",
+        "imdbID": "tt2975590",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$330,360,194",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    },
+    "links": {}
+  },
+  "yuval@gmail.com": {
+    "movies": {
+      "tt0242423": {
+        "Title": "Dude, Where's My Car?",
+        "Year": "2000",
+        "Rated": "PG-13",
+        "Released": "15 Dec 2000",
+        "Runtime": "83 min",
+        "Genre": "Comedy, Mystery, Sci-Fi",
+        "Director": "Danny Leiner",
+        "Writer": "Philip Stark",
+        "Actors": "Ashton Kutcher, Seann William Scott, Jennifer Garner",
+        "Plot": "Two potheads wake up after a night of partying and cannot remember where they parked their car.",
+        "Language": "English, Japanese, French",
+        "Country": "United States",
+        "Awards": "1 win & 6 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNmE3NmUxNjUtYzIzMS00MmEzLWJjNjUtNmQ5OTcxMDJkMGNiXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "5.5/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "16%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "30/100"
+          }
+        ],
+        "Metascore": "30",
+        "imdbRating": "5.5",
+        "imdbVotes": "148,146",
+        "imdbID": "tt0242423",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$46,729,800",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    },
+    "links": {}
+  }
+}
