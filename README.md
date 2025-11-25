@@ -1,99 +1,93 @@
 # 🎬 Movie Search App
 
-A full-stack movie search application featuring user accounts,
-favorites, watchlists, and MongoDB data persistence.
+A full-stack movie discovery platform with user authentication,
+favorites management, personal movie links, and real-time search ---
+built as part of my software development portfolio.
+
+🌐 **Live Demo:**\
+👉 https://movie-search-app-q6xe.onrender.com
 
 ------------------------------------------------------------------------
 
+## 🚀 About The Project
 
-## 🚀 Features
+Movie Search App is a complete web application that allows users to:
 
--   ✔ User registration & login with **bcryptjs** password hashing\
--   ✔ Session-based authentication using **express-session +
-    MongoStore**\
--   ✔ Movie search using an external API\
--   ✔ Add movies to **Favorites** and **Watchlist**\
--   ✔ Dynamic UI rendering with **EJS**\
--   ✔ MongoDB + Mongoose data models\
--   ✔ Clean MVC architecture\
--   ✔ Fully modular and scalable codebase
+-   Search for movies using an external API\
+-   Create an account & log in securely\
+-   Save movies to personalized favorites\
+-   Attach custom watching links\
+-   Rate movies\
+-   Enjoy a clean and responsive UI built with EJS
 
 ------------------------------------------------------------------------
 
-## 🧰 Tech Stack
+## ✨ Features
+
+### 🔐 Authentication & Security
+
+-   Secure user registration & login\
+-   Password hashing with **bcryptjs**\
+-   Session-based authentication\
+-   Protected routes
+
+### 🎥 Movie Features
+
+-   Real-time movie search\
+-   Movie details\
+-   Add/remove favorites\
+-   Add personal links\
+-   User-specific ratings
+
+------------------------------------------------------------------------
+
+## 🛠️ Tech Stack
 
 ### Backend
 
 -   Node.js\
 -   Express.js\
--   Mongoose (MongoDB)\
--   bcrypt\
+-   MongoDB Atlas\
+-   Mongoose\
+-   bcryptjs\
 -   express-session\
 -   connect-mongo
 
 ### Frontend
 
--   HTML\
--   CSS\
--   JavaScript\
--   EJS Templates
+-   EJS\
+-   HTML / CSS
 
 ### Tools
 
 -   Git & GitHub\
--   MongoDB Compass\
+-   Render\
 -   VS Code
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
-
-    movie-search-app/
-    │
-    ├── Client/
-    │   ├── css/
-    │   └── js/
-    ├── config/
-    ├── data/
-    ├── models/
-    ├── routes/
-    ├── views/
-    │
-    ├── package.json
-    ├── package-lock.json
-    └── server.js
-
-------------------------------------------------------------------------
-
-## 🛠 Installation & Running
-
-### 1. Install dependencies
+## ⚙️ Running Locally
 
 ``` bash
+git clone https://github.com/Yuval2306/movie-search-app.git
+cd movie-search-app
 npm install
 ```
 
-### 2. Start MongoDB
+Create **.env**:
 
-``` bash
-mongod
-```
+    MONGO_URI=your_uri_here
+    NODE_ENV=development
 
-### 3. Run the server
+Run:
 
 ``` bash
 npm start
 ```
 
-### 4. Open the app in your browser
-
-    http://localhost:3000
-
 ------------------------------------------------------------------------
-
 
 ## 👨‍💻 Author
-**Yuval Boker**  
-Full‑Stack & Software Developer 
 
-------------------------------------------------------------------------
+**Yuval Boker**\
+Junior Full-Stack Developer
